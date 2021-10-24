@@ -1,0 +1,2232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from preview.colorlib.com/theme/portech/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:40 GMT -->
+
+<head>
+    <title>CCET | ACM | HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9732865b92.js" crossorigin="anonymous"></script>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="css/animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css.pagespeed.cc.tVkclJh8gl.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            transition: 0.3s;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .scene {
+            margin-top: 20%;
+            perspective: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50%;
+            width: 50%;
+            background: url('https://i.imgur.com/2WQui47.jpg');
+            background-size: 50% 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .scene:hover {
+            transform: scale(1.5);
+        }
+
+        .scene:hover .side {
+            opacity: 1;
+        }
+
+        .cube {
+            transform-style: preserve-3d;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            animation: rotate 50s ease-in-out infinite;
+            transform-origin: center center;
+        }
+
+        .side {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #333;
+            opacity: 0.95;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .back {
+            transform: translateZ(-150px) rotateX(180deg);
+            background-image: url("IMAGES/Events/rect2021-01.jpeg");
+        }
+
+        .left {
+            transform: translateX(-150px) rotateY(90deg);
+            background-image: url("IMAGES/Events/deep-dive-deep-learning.jpeg");
+
+        }
+
+        .right {
+            transform: translateX(150px) rotateY(90deg);
+            background-image: url("IMAGES/Events/hf-2021.jpeg");
+        }
+
+        .top {
+            transform: translateY(-150px) rotateX(90deg);
+            background-image: url("IMAGES/Events/ml_ws.jpeg");
+        }
+
+        .bottom {
+            transform: translateY(150px) rotateX(270deg);
+            background-image: url("IMAGES/Events/technical_writing.jpeg");
+        }
+
+        .front {
+            transform: translateZ(150px);
+            background-image: url("IMAGES/linux-launch/linux-yourself.jpeg");
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotateX(0);
+            }
+
+            12.5% {
+                transform: rotateX(90deg);
+            }
+
+            25% {
+                transform: rotateY(270deg);
+            }
+
+            37.5% {
+                transform: rotateY(270deg);
+            }
+
+            50% {
+                transform: rotateY(360deg);
+            }
+
+            62.5% {
+                transform: rotateX(90deg);
+            }
+
+            75% {
+                transform: rotateX(180deg);
+            }
+
+            87.5% {
+                transform: rotateX(270deg);
+            }
+
+            100% {
+                transform: rotateX(360deg);
+            }
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Anaheim);
+
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        .container-recent-updates {
+            margin: 4% auto;
+            width: 210px;
+            height: 140px;
+            position: relative;
+            perspective: 1000px;
+        }
+
+        #carousel {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            transform-style: preserve-3d;
+            animation: rotation 60s infinite linear;
+        }
+
+        #carousel:hover {
+            animation-play-state: paused;
+        }
+
+        #carousel figure {
+            display: block;
+            position: absolute;
+            width: 186px;
+            height: 116px;
+            left: 10px;
+            top: 10px;
+            background: black;
+            overflow: hidden;
+            border: solid 5px black;
+        }
+
+        #carousel figure:nth-child(1) {
+            transform: rotateY(0deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(2) {
+            transform: rotateY(40deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(3) {
+            transform: rotateY(80deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(4) {
+            transform: rotateY(120deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(5) {
+            transform: rotateY(160deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(6) {
+            transform: rotateY(200deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(7) {
+            transform: rotateY(240deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(8) {
+            transform: rotateY(280deg) translateZ(288px);
+        }
+
+        #carousel figure:nth-child(9) {
+            transform: rotateY(320deg) translateZ(288px);
+        }
+
+        img {
+            /* -webkit-filter: grayscale(1); */
+            cursor: pointer;
+            transition: all .5s ease;
+        }
+
+        img:hover {
+            /* -webkit-filter: grayscale(0); */
+            transform: scale(1.2, 1.2);
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotateY(0deg);
+            }
+
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+
+
+        .testimonial-img {
+            width: 30%;
+            margin-top: 1em;
+            margin-left: 35%;
+        }
+
+        /* RECENT UPDATES 2 CSS */
+
+
+        .time-line-box {
+            height: 100px;
+            padding: 100px 0;
+            width: 100%;
+            background-color: #caf0f8;
+        }
+
+        .time-line-box .timeline {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            text-align: center;
+        }
+
+        .time-line-box .timestamp {
+            margin: auto;
+            margin-bottom: 5px;
+            padding: 0px 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .time-line-box .status {
+            padding: 0px 10px;
+            display: flex;
+            justify-content: center;
+            border-top: 3px solid #455EFC;
+            position: relative;
+            transition: all 200ms ease-in;
+        }
+
+        .time-line-box .status span {
+            padding-top: 8px;
+        }
+
+        .time-line-box .status span:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background-color: #455EFC;
+            border-radius: 12px;
+            border: 2px solid #455EFC;
+            position: absolute;
+            left: 50%;
+            top: 0%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            transition: all 200ms ease-in;
+        }
+
+        .swiper-container {
+            width: 95%;
+            margin: auto;
+            overflow-y: auto;
+        }
+
+        .swiper-wrapper {
+            display: inline-flex;
+            flex-direction: row;
+            overflow-y: auto;
+            justify-content: center;
+        }
+
+        /* .swiper-container::-webkit-scrollbar-track {
+            background: #a8a8a8b6;
+        }
+
+        .swiper-container::-webkit-scrollbar {
+            height: 2px;
+        }
+
+        .swiper-container::-webkit-scrollbar-thumb {
+            background: #4F4F4F !important;
+        } */
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 12px;
+            width: 200px;
+            height: 100%;
+            position: relative;
+        }
+
+        /* UPCOMING 2 */
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            font-family: "Poppins", sans-serif;
+        }
+
+        .upcoming {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            min-height: 100vh;
+            background: #caf0f8;
+            margin-top: -150px;
+        }
+
+        .upcoming .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 40px 0;
+        }
+
+        .upcoming .container .card {
+            position: relative;
+            min-width: 320px;
+            height: 440px;
+            box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+                inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+                5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin: 30px;
+            transition: 0.5s;
+        }
+
+        .upcoming .container .card:nth-child(1) .box .content a {
+            background: #2196f3;
+        }
+
+        .upcoming .container .card:nth-child(2) .box .content a {
+            background: #2196f3;
+        }
+
+        .upcoming .container .card:nth-child(3) .box .content a {
+            background: #2196f3;
+        }
+
+        .upcoming .container .card .box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            background: #0077b6;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .upcoming .container .card .box:hover {
+            transform: translateY(-50px);
+        }
+
+        .upcoming .container .card .box:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .upcoming .container .card .box .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .upcoming .container .card .box .content h2 {
+            position: absolute;
+            top: -10px;
+            right: 30px;
+            font-size: 8rem;
+            color: rgba(255, 255, 255, 0.1);
+        }
+
+        .upcoming .container .card .box .content h3 {
+            font-size: 1.8rem;
+            color: #fff;
+            /* color: #caf0f8; */
+            z-index: 1;
+            transition: 0.5s;
+            margin-bottom: 15px;
+        }
+
+        .upcoming .container .card .box .content p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: white;
+            /* color: black; */
+            /* color: #caf0f8; */
+            z-index: 1;
+            transition: 0.5s;
+        }
+
+        .upcoming .container .card .box .content a {
+            position: relative;
+            display: inline-block;
+            padding: 8px 20px;
+            background: black;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            /* color: #caf0f8; */
+            margin-top: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: 0.5s;
+        }
+
+        .upcoming .container .card .box .content a:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+            background: #fff;
+            /* background:#caf0f8; */
+            color: #000;
+        }
+
+        /* TEAMS */
+
+        @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+
+        :root {
+            --d: 700ms;
+            --e: cubic-bezier(0.19, 1, 0.22, 1);
+            --font-sans: 'Rubik', sans-serif;
+            --font-serif: 'Cardo', serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .team {
+            display: grid;
+            place-items: center;
+            background-color: #caf0f8;
+            padding-bottom: 60px;
+            padding-top: 50px;
+        }
+
+        .team .page-content {
+            display: grid;
+            grid-gap: 1rem;
+            padding: 1rem;
+            /* max-width: 1024px; */
+            margin: 0 auto;
+            font-family: var(--font-sans);
+        }
+
+
+        .team11 {
+            width: 130%;
+        }
+
+        @media (min-width: 600px) {
+            .page-content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 800px) {
+            .page-content {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 900px) {
+            .team11 {
+                width: 100%;
+            }
+        }
+
+        /* @media (min-width: 1200px) {
+            .team11 {
+                width: 80%;
+            }
+        } */
+
+        .team_card {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+            /* color: whitesmoke; */
+            /* background-color: whitesmoke; */
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (min-width: 600px) {
+            .team_card {
+                height: 350px;
+            }
+        }
+
+        .team_card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 110%;
+            background-size: cover;
+            background-position: 0 0;
+            transition: transform calc(var(--d) * 1.5) var(--e);
+            pointer-events: none;
+        }
+
+        .team_card:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200%;
+            pointer-events: none;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.320) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.540) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.790) 100%);
+            transform: translateY(-50%);
+            transition: transform calc(var(--d) * 2) var(--e);
+        }
+
+        .team_card:nth-child(1):before {
+            background-image: url(IMAGES/Vectors/coding_copy.png);
+        }
+
+        .team_card:nth-child(2):before {
+            background-image: url(IMAGES/Vectors/website_copy.png);
+        }
+
+        .team_card:nth-child(3):before {
+            background-image: url(IMAGES/Vectors/design_copy.png);
+        }
+
+        .team_card:nth-child(4):before {
+            background-image: url(IMAGES/Vectors/project_copy.png);
+        }
+
+        .team_card .content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1rem;
+            transition: transform var(--d) var(--e);
+            z-index: 1;
+        }
+
+        .team_card .content>*+* {
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            line-height: 1.2;
+            color: white;
+        }
+
+        .copy {
+            font-family: var(--font-serif);
+            font-size: 1.125rem;
+            font-style: italic;
+            line-height: 1.35;
+        }
+
+        .btn {
+            cursor: pointer;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 0.65rem;
+            font-weight: bold;
+            letter-spacing: 0.025rem;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+            border: none;
+            background-image: linear-gradient(to right, #03045e, #023e8a, #0077b6);
+        }
+
+        .btn:hover {
+            color: black;
+            background-image: linear-gradient(to right, #caf0f8, #90e0ee, #00b4d8);
+            background-color: #0d0d0d;
+        }
+
+        .btn:focus {
+            outline: 1px dashed yellow;
+            outline-offset: 3px;
+        }
+
+        @media (hover: hover) and (min-width: 600px) {
+            .team_card:after {
+                transform: translateY(0);
+            }
+
+            .team_card .content {
+                transform: translateY(calc(100% - 4.5rem));
+            }
+
+            .team_card .content>*:not(.title) {
+                opacity: 0;
+                transform: translateY(1rem);
+                transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+            }
+
+            .team_card:hover,
+            .team_card:focus-within {
+                align-items: center;
+            }
+
+            .team_card:hover:before,
+            .team_card:focus-within:before {
+                transform: translateY(-4%);
+            }
+
+            .team_card:hover:after,
+            .team_card:focus-within:after {
+                transform: translateY(-50%);
+            }
+
+            .team_card:hover .content,
+            .team_card:focus-within .content {
+                transform: translateY(0);
+            }
+
+            .team_card:hover .content>*:not(.title),
+            .team_card:focus-within .content>*:not(.title) {
+                opacity: 1;
+                transform: translateY(0);
+                transition-delay: calc(var(--d) / 8);
+            }
+
+            .team_card:focus-within:before,
+            .team_card:focus-within:after,
+            .team_card:focus-within .content,
+            .team_card:focus-within .content>*:not(.title) {
+                transition-duration: 0s;
+            }
+        }
+
+        .team-slider-img {
+            width: 30%;
+            margin-top: 1em;
+        }
+
+
+
+        .testimonial-bg {
+            border: 10px solid #03045e;
+            padding: 80px 70px;
+            text-align: center;
+            position: relative;
+            background-color: #0077b6;
+        }
+
+        .testimonial-bg:before {
+            content: "\f10d";
+            font-family: "fontawesome";
+            width: 75px;
+            height: 75px;
+            line-height: 75px;
+            background: #fff;
+            text-align: center;
+            font-size: 50px;
+            color: #3c414c;
+            position: absolute;
+            top: -40px;
+            left: 2%;
+        }
+
+        .testimonial {
+            padding: 0 15px;
+        }
+
+        .testimonial .description {
+            font-size: 20px;
+            font-weight: 400;
+            font-style: italic;
+            color: white;
+            line-height: 30px;
+            padding-bottom: 25px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .testimonial .description:before {
+            content: "";
+            width: 75%;
+            border-top: 1px solid #ddd;
+            margin: 0 auto;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .testimonial .description:after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            transform: translateX(-50%) rotate(45deg);
+        }
+
+        .testimonial .pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 25px auto;
+            overflow: hidden;
+        }
+
+        .testimonial .pic img {
+            width: 100%;
+            height: auto;
+        }
+
+        .testimonial .title {
+            display: inline-block;
+            font-size: 23px;
+            font-weight: 700;
+            color: white;
+            text-transform: capitalize;
+            margin: 0;
+        }
+
+        .testimonial .post {
+            display: inline-block;
+            font-size: 20px;
+            color: white;
+        }
+
+        /* .owl-theme .owl-controls {
+            background: #fff;
+            margin-top: 10px;
+            position: absolute;
+            bottom: -34%;
+            right: 0;
+        } */
+
+        .owl-theme .owl-controls .owl-buttons div {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 50%;
+            background: #34363b;
+            opacity: 1;
+            padding: 0;
+        }
+
+        .owl-prev:before,
+        .owl-next:before {
+            content: "\f104";
+            font-family: "fontawesome";
+            font-size: 23px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .owl-next:before {
+            content: "\f105";
+        }
+
+        @media only screen and (max-width:767px) {
+            .testimonial-bg {
+                padding: 50px 40px;
+            }
+
+            .owl-theme .owl-controls {
+                bottom: -22%;
+            }
+        }
+
+        @media only screen and (min-width:767px) {
+            .testimonial-bg {
+                padding: 50px 40px;
+            }
+
+            .owl-theme .owl-controls {
+                bottom: -22%;
+            }
+        }
+
+        @media only screen and (max-width:480px) {
+            .testimonial-bg:before {
+                width: 55px;
+                height: 55px;
+                line-height: 55px;
+                font-size: 40px;
+            }
+
+            .testimonial-bg {
+                padding: 30px 10px;
+            }
+
+            .owl-theme .owl-controls {
+                bottom: -15%;
+            }
+        }
+
+        @media only screen and (max-width:360px) {
+
+            .testimonial .title,
+            .testimonial .post {
+                font-size: 16px;
+            }
+
+            .owl-theme .owl-controls {
+                bottom: -12%;
+            }
+        }
+
+
+        /* FOOTER CSS FONT AWESOME */
+
+        .block-23 ul li,
+        .block-23 ul li>a {
+            display: inline;
+            line-height: 0.5;
+            margin-bottom: 15px;
+        }
+
+        /* .block-23 ul li, .block-23 ul li>a :hover{
+            color: #03045e;
+            display: inline;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        } */
+        /* RECENT UPDATES SLIDER */
+
+
+        .cd-slider {
+            /* margin-top: 20px; */
+            position: relative;
+            width: 100%;
+            height: 100%;
+            height: 100vh;
+            background: #caf0f8;
+            overflow: hidden;
+        }
+
+        .item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80%;
+            list-style: none;
+            margin-bottom: 20px;
+            -webkit-transform: translateX(100%);
+            -moz-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+            -o-transform: translateX(100%);
+            transform: translateX(100%);
+            -webkit-transition: -webkit-transform 1s cubic-bezier(0.88, 0.01, 0.08, 0.99);
+            -moz-transition: -moz-transform 1s cubic-bezier(0.88, 0.01, 0.08, 0.99);
+            -o-transition: -o-transform 1s cubic-bezier(0.88, 0.01, 0.08, 0.99);
+            transition: transform 1s cubic-bezier(0.88, 0.01, 0.08, 0.99);
+        }
+
+        .updates {
+            height: 75%;
+        }
+
+        .update-card {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            max-width: 700px;
+            width: 100%;
+            border-radius: 5px;
+            padding: 2%;
+            box-shadow: 0 0 65px 2px rgba(0, 0, 0, .1);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 2em;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .update-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .update-card img,
+        .update-card .img {
+            width: 100%;
+        }
+
+        .info {
+            vertical-align: middle;
+        }
+
+        .info h1 {
+            color: #fff;
+            font-size: 25px;
+            margin-bottom: 15px;
+            font-weight: 900;
+        }
+
+        .info p {
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        .info a {
+            display: inline-block;
+            float: right;
+            text-decoration: none;
+            color: #000;
+            background: #fff;
+            font-size: 12px;
+            font-weight: 900;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            -webkit-transition: box-shadow .3s, opacity .6s 1s, -webkit-transform .6s 1s;
+            -moz-transition: box-shadow .3s, opacity .6s 1s, -moz-transform .6s 1s;
+            -o-transition: box-shadow .3s, opacity .6s 1s, -o-transform .6s 1s;
+            transition: box-shadow .3s, opacity .6s 1s, transform .6s 1s;
+        }
+
+        .info a:hover {
+            box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, .1);
+        }
+
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            width: 40px;
+            height: 40px;
+            margin-top: -20px;
+        }
+
+        .next {
+            right: 5%;
+            left: auto;
+        }
+
+        .hide-nav {
+            visibility: hidden;
+        }
+
+        /* Transitions 
+----------------------------------*/
+        .update-card img,
+        .update-card .img,
+        .info>* {
+            opacity: 0;
+            -webkit-transform: translateY(20%);
+            -moz-transform: translateY(20%);
+            -ms-transform: translateY(20%);
+            -o-transform: translateY(20%);
+            transform: translateY(20%);
+            -webkit-transition: -webkit-transform .6s 1s, opacity .6s 1s;
+            -moz-transition: -moz-transform .6s 1s, opacity .6s 1s;
+            -o-transition: -o-transform .6s 1s, opacity .6s 1s;
+            transition: transform .6s 1s, opacity .6s 1s;
+        }
+
+        .prev_slide {
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+
+        .current {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+        .current .update-card img,
+        .current .update-card .img,
+        .current .info>* {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        @media screen and (max-width: 900px) {
+            .update-card {
+                max-width: 70%;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .udpate-card {
+                text-align: center;
+            }
+
+            .info {
+                padding-left: 0;
+            }
+
+            .info p {
+                display: none;
+            }
+
+            .info a {
+                float: none;
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+            .update-card {
+                padding: 4%;
+            }
+
+            .update-card img,
+            .update-card .img {
+                width: 60%;
+                margin-bottom: 5%;
+            }
+
+            .info {
+                width: 100%;
+            }
+
+            .prev {
+                left: 3%;
+            }
+
+            .next {
+                right: 3%;
+            }
+        }
+
+        @media screen and (max-height: 450px) and (orientation: landscape) {
+
+            .update-card img,
+            .update-card .update-img {
+                width: 40%;
+                margin-bottom: 0;
+            }
+
+            .info {
+                width: 59%;
+                padding-left: 5%;
+            }
+        }
+
+        /* drop down navabr css */
+
+        .nb {
+            overflow: hidden;
+            background-color: none;
+            padding-top: 10px;
+            box-sizing: unset;
+        }
+
+        .nb a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dd {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dd .db {
+            font-size: 16px;
+            /* border: 1px; */
+            /* border-radius: 10px; */
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .nb a:hover,
+        .dd:hover .db {
+            background-color: #48cae4;
+            color: black;
+            /* border: 1px; */
+            /* border-radius: 10px; */
+        }
+
+        .ddc {
+            display: none;
+            position: absolute;
+            background-color: #48cae4;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .ddc a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .ddc a:hover {
+            background-color: #ddd;
+        }
+
+        .dd:hover .ddc {
+            display: block;
+        }
+
+        .ftco-navbar-light.scrolled .nb {
+            /* padding-top: 1rem !important; */
+            /* padding-bottom: 1rem !important; */
+
+            color: #000000 !important;
+        }
+
+        .ftco-navbar-light.scrolled .db {
+            /* padding-top: 1rem !important; */
+            /* padding-bottom: 8px !important;  */
+
+            margin-top: -8%;
+            color: #000000 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo-b" style="width: 55%;" src="IMAGES/ccet-acm-logo-website.png" alt="CCET">
+                <img class="logo-w" style="width: 55%;" src="IMAGES/ccet-acm-logo-website-white.png" alt="CCET">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="gallery_new.html" class="nav-link">Gallery</a></li>
+                    <!-- <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li> -->
+                    <div class="nb">
+                        <div class="dd">
+                            <button class="db">Events
+                                <!-- <i class="fa fa-caret-down"></i> -->
+                            </button>
+                            <div class="ddc">
+                                <a href="competitions.html">Competitions</a>
+                                <a href="events.html">Events</a>
+                                <!-- <a href="#" class="nav-link">Link 3</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <li class="dropdown"><a href="events.html" class="nav-link">Events</a></li>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="competitions.html">Competition</a>
+                        </li>
+                    </ul> -->
+                    <!-- <li class="nav-item"><a href="2021-team.html" class="nav-link">Team</a></li> -->
+                    <div class="nb">
+                        <div class="dd">
+                            <button class="db">Team
+                                <!-- <i class="fa fa-caret-down"></i> -->
+                            </button>
+                            <div class="ddc">
+                                <a href="2021-team.html">Office Bearers</a>
+                                <a href="Executive_Members.html">Executive Members</a>
+                                <a href="Webmasters.html">Webmasters</a>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="membership.html" target="blank" class="nav-link">Membership</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-wrap" style="background-image:url(IMAGES/bg_vector_copy.png);">
+        <!-- <div class="home-slider owl-carousel js-fullheight"> -->
+
+        <div class="slider-item js-fullheight">
+
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-flex no-gutters slider-text js-fullheight align-items-center align-items-stretch">
+                    <div class="col-md-6 ftco-animate d-flex align-items-center">
+                        <div class="text w-100">
+                            <!-- <span class="subheading">Welcome to Portech</h2></span> -->
+                            <h1>CCET ACM</h1>
+                            <h1>STUDENT CHAPTER</h1>
+                            <p class="mb-4">Computing is not about computers, its about living, living to solve the
+                                problems of society using computer science.</p>
+                            <p><a href="about.html" class="btn btn-primary">Learn More</a></p>
+                            <!-- <a href="#" class="btn btn-white">View Portfolio</a> -->
+                        </div>
+                    </div>
+                    <div class="scene">
+                        <div class="cube">
+                            <div class="side back"></div>
+                            <div class="side left"></div>
+                            <div class="side right"></div>
+                            <div class="side top"></div>
+                            <div class="side bottom"></div>
+                            <div class="side front"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- </div> -->
+    </section>
+
+
+
+    <!-- RECENT UPDATES 1 -->
+    <section class="ps-timeline-sec">
+
+
+
+    </section>
+
+    <div class="updates">
+        <div class="cd-slider">
+            <ul>
+                <li class="item current" style="background: hsl(190, 77%, 88%);">
+                    <div class="update-card" style="background: #0077b6;">
+                        <!-- <img src="url"> -->
+                        <div class="update-img">
+                            <img src="IMAGES/linux_copy.jpeg" style="width: 100%;">
+                        </div>
+                        <div class="info">
+                            <h1>Launch of Book, Linux Yourself: Concept and Programming authored by Dr. Sunil K.
+                                Singh
+                            </h1>
+                            <p>This book is published by Chapman and Hall/CRC (Taylor & Francies Group) at Boca Raton,
+                                Florida USA. The CCET ACM Student Chapter express its sincere gratitude to Dr. Sunil K.
+                                Singh, for writing a textbook on Linux Yourself: Concept & Programming. </p>
+                            <a href="linux-launch.html">Read More</a>
+                        </div>
+
+                    </div>
+
+                </li>
+                <li class="item" style="background: #caf0f8;">
+                    <div class="update-card" style="background: #0077b6;">
+                        <div class="update-img">
+                            <img src="IMAGES/Events/technical_writing.jpeg">
+                        </div>
+                        <div class="info">
+                            <h1>Technical Paper Writing Contest
+                            </h1>
+                            <p>Insights2Techinfo in association with LoginRadius, eFeed-Hungers, InnovativeFET, Con4com,
+                                and CCET ACM Student Chapter is going to organize a 2021 Technical Paper Writing
+                                Contest.</p>
+                            <a href="https://insights2techinfo.com/2021-technical-paper-writing-contest/">Read More</a>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="item" style="background: #caf0f8;">
+                    <div class="update-card" style="background: #0077b6;">
+                        <div class="update-img">
+                            <img src="IMAGES/blog_images/MLOP_copy.png">
+                        </div>
+                        <div class="info">
+                            <h1>Blog by Muskaan Chopra And Dr. Sunil K. Singh on the trending topic MLOPs
+                            </h1>
+                            <p>With the interesting mix of terms “AI-ML” and “Development Operations,” MLOps is an
+                                assortment of methods, that is utilized for AI and its life cycle computerization and
+                                its calculations in execution for enormous scope.</p>
+                            <a
+                                href="https://insights2techinfo.com/mlops-a-new-era-of-devops-powered-by-machine-learning/">Read
+                                More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item" style="background: #caf0f8;">
+                    <div class="update-card" style="background: #0077b6;">
+                        <div class="update-img">
+                            <img src="IMAGES/blog_images/Green_HPC_copy.png">
+                        </div>
+                        <div class="info">
+                            <h1>Blog by Kriti Aggarwal And Sudhakar Kumar on the topic of Green HPC’s
+                            </h1>
+                            <p>High performance computing (HPC) evolved as result of growing demand for computational
+                                speed, high performance and data storage. HPC puts various technologies like computer
+                                architecture, programming and its algorithms and systems software on same platform to
+                                address the problem of continuous and efficient development of high-performance
+                                computing application .</p>
+                            <a
+                                href="https://insights2techinfo.com/green-hpcs-new-generation-solution-for-decreasing-energy-consumption-of-hpc-systems/">Read
+                                More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item" style="background: #caf0f8;">
+                    <div class="update-card" style="background: #0077b6;">
+                        <div class="update-img">
+                            <img src="IMAGES/blog_images/BCI_copy.jpg">
+                        </div>
+                        <div class="info">
+                            <h1>Blog by Sudhakar Kumar And Dr. Sunil K. Singh on the topic of Brain Computer Interaction
+                            </h1>
+                            <p>A Brain–computer interface (BCI) is a framework that actions the movement of the central
+                                nervous system (CNS) and converts it into fake yield that replaces, re-establishes,
+                                upgrades, supplements, or further develops normal CNS yield, and in this manner changes
+                                the continuous communications between the CNS and its outside or inner environment .</p>
+                            <a
+                                href="https://insights2techinfo.com/brain-computer-interaction-bci-a-way-to-interact-with-brain-waves/">Read
+                                More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item" style="background: #caf0f8;">
+                    <div class="update-card" style="background: #0077b6;">
+                        <div class="update-img">
+                            <img src="magazine/images/magazine/vol1issue3.jpeg">
+                        </div>
+                        <div class="info">
+                            <h1>CCET ACM Student Chapter Magazine- Summer Volume 1 Issue 3 Launched
+                            </h1>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, magni, corporis
+                                perferendis
+                                sit
+                                libero ducimus fuga cupiditate officiis dolore deserunt at. Adipisci iste sint
+                                repellat
+                                eos
+                                optio, nulla doloremque vitae.</p> -->
+                            <a href="/magazine/magazine.html">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="item" style="background: #caf0f8;">
+                    <div class="update-card" style="background: #0077b6;">
+                        <div class="update-img">
+                            <img src="IMAGES/blog_images/Blockchain copy.png">
+                        </div>
+                        <div class="info">
+                            <h1>Blog by Sudhakar Kumar And Dipesh Singla on the topic of Blockchain for Data Science
+                            </h1>
+                            <p>The Data Science industry is confronting a colossal danger to its information security
+                                and information protection in the entirety of its chains, similar to information
+                                assortment, Data Production, information dissecting, and information sharing, and so
+                                forth. </p>
+                            <a href="https://insights2techinfo.com/blockchain-for-data-science/">Read More</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav">
+                <a href="#" class="prev">
+                    <svg viewBox="0 0 20 20" style="background-color: #0077b6;">
+                        <path fill="#FFFFFF" stroke-width="0"
+                            d="M8.388,10.049l4.76-4.873c0.303-0.31,0.297-0.804-0.012-1.105c-0.309-0.304-0.803-0.293-1.105,0.012L6.726,9.516c-0.303,0.31-0.296,0.805,0.012,1.105l5.433,5.307c0.152,0.148,0.35,0.223,0.547,0.223c0.203,0,0.406-0.08,0.559-0.236c0.303-0.309,0.295-0.803-0.012-1.104L8.388,10.049z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="#" class="next">
+                    <svg viewBox="0 0 20 20" style="background-color: #0077b6;">
+                        <path fill="#FFFFFF" stroke-width="0"
+                            d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <a href="#" class="prev">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#FFFFFF" stroke-width="0"
+                        d="M8.388,10.049l4.76-4.873c0.303-0.31,0.297-0.804-0.012-1.105c-0.309-0.304-0.803-0.293-1.105,0.012L6.726,9.516c-0.303,0.31-0.296,0.805,0.012,1.105l5.433,5.307c0.152,0.148,0.35,0.223,0.547,0.223c0.203,0,0.406-0.08,0.559-0.236c0.303-0.309,0.295-0.803-0.012-1.104L8.388,10.049z">
+                    </path>
+                </svg>
+            </a>
+            <a href="#" class="next">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#FFFFFF" stroke-width="0"
+                        d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z">
+                    </path>
+                </svg>
+            </a>
+        </div class="nav">
+
+    </div>
+    </div>
+    <br>
+
+    <div class="upcoming">
+        <div class="container">
+            <div class="card" style="background-image: linear-gradient(315deg,#03045e ,#0077b6);">
+                <div class="box">
+                    <div class="content">
+                        <!-- <h2>01</h2> -->
+                        <h3>Upcoming</h3>
+                        <p>CCET ACM Student Chapter presents a Codathon : Coding Raijin <br><strong>Platform:
+                                CodeChef</strong>
+                            September 25, 2021 (4:30 PM - 7:00 PM)</p>
+                        <br><br>
+                        <a href="events.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="background-image: linear-gradient(315deg,#03045e ,#0077b6);">
+                <div class="box">
+                    <div class="content">
+                        <!-- <h2>02</h2> -->
+                        <h3>Achievements</h3>
+                        <p>Book Launch by Dr. Sunil K. Singh-31 August,2021</p>
+                        <p>Blog by Sudhakar Kumar and Sunil K. Singh - Brain Computing Interaction</p>
+                        <p>Blog by Muskaan Chopra and Sunil K. Singh - MLOPs</p>
+                        <!-- <p>Blog by Kriti Aggarwal and Sudhakar Kumar - Green HPC's</p> -->
+                        <a href="achievements.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="background-image: linear-gradient(315deg,#03045e ,#0077b6);">
+                <div class="box">
+                    <div class="content">
+                        <!-- <h2>03</h2> -->
+                        <h3>Previous</h3>
+                        <p>Open Discussion on "An Undergrad perspective on CS Life</p>
+                        <p>Launch of CASC's Digital Outlet Magazine - June 30, 2021, CASC Community</p>
+                        <br>
+                        <a href="events.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section style="margin-top: -60px;" class="ftco-sectionbg-light">
+        <h1
+            style="background-color: #caf0f8;text-align: center;margin-bottom: 0%; font-family: 'Courier New', Courier, monospace;">
+            <strong>OUR INITIATIVES</strong>
+        </h1>
+        <div class="team">
+            <main class="page-content">
+                <div class=" team_card">
+                <!-- <img style="width: 100%;" src="coding.png" alt=""> -->
+                <div class="content">
+                    <h2 class="title" style="text-shadow: 0.5px;">Coding Team</h2>
+                    <p class="copy" style="color: white;">CCET ACM coding team aims towards the enhancement of coding
+                        skills of students</p>
+                    <p><a href="coding_team_page.html" target="_blank" class="btn btn-primary">Learn More</a></p>
+                </div>
+        </div>
+        <div class="team_card">
+            <div class="content">
+                <h2 class="title" style="text-shadow: 0.5px;">Website Team</h2>
+                <p class="copy" style="color: white;">Website team of CASC aims towards developing new skills. It
+                    provides its members with various tasks of web development.</p>
+                <p><a href="website_team_page.html" target="_blank" class="btn btn-primary">Learn More</a></p>
+            </div>
+        </div>
+        <div class="team_card">
+            <div class="content">
+                <h2 class="title" style="text-shadow: 0.5px;">Design Team</h2>
+                <p class="copy" style="color: white;">The CCET ACM Student Chapter has it’s very own well heeled design
+                    team rolling in all the latest technologies and trends in the design field. </p>
+
+                <p><a href="design_team_page.html" target="_blank" class="btn btn-primary">Learn More</a></p>
+            </div>
+        </div>
+        <div class="team_card">
+            <div class="content">
+                <h2 class="title" style="text-shadow: 0.5px;">Project Team</h2>
+                <p class="copy" style="color: white;">The CCET ACM Student Chapter has a well to do project team
+                    intended for implementing the learning by taking up various types of projects and research work.</p>
+
+                <p><a href="project_team_page.html" target="_blank" class="btn btn-primary">Learn More</a></p>
+            </div>
+        </div>
+        </main>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials Section -->
+    <section class="ftco-section testimony-section bg-light">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-md-7 heading-section heading-section-white ftco-animate">
+                    <span class="subheading">Testimonials</span>
+                    <h2 class="mb-4">What Our Mentors Say</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container container-2">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card h-100 ">
+                        <img style="filter:grayscale(0%);" class="testimonial-img"
+                            src="IMAGES/Testimonials_Images/msgujral-01 copy.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Dr. Manpreet Singh</h5>
+                            <h6 class="text-center card-text">Principal CCET (Degree Wing)</h6>
+                            <h6 class="text-center card-text">Source of Inspiration</h6>
+                            <p class="card-text text-center">Our mission at ACM CCET is not only to produce engineering
+                                graduates but to produce engineering minds.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card h-100">
+                        <img style="filter:grayscale(0%);" class="testimonial-img"
+                            src="IMAGES/Testimonials_Images/sk_singh-01 copy.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Dr. Sunil K. Singh</h5>
+                            <h6 class="text-center card-text">Professor and HOD, CSE</h6>
+                            <h6 class="text-center card-text">Faculty Mentor</h6>
+                            <p class="card-text text-center">ACM CCET provides student a great opportunity to learn
+                                scientific and practical approach of computer science.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card h-100">
+                        <img style="filter:grayscale(0%);" class="testimonial-img"
+                            src="IMAGES/Testimonials_Images/sudhakar_kumar-01 copy.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Sudhakar Kumar</h5>
+                            <h6 class="text-center card-text">Assistant Professor, CSE</h6>
+                            <h6 class="text-center card-text">Faculty Sponsor</h6>
+                            <p class="card-text text-center">Every person should be provided with an opportunity to
+                                learn and explore the field of computer science.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <div style="background-color: #caf0f8;">
+        <br>
+    </div>
+
+    <!--Counter-->
+    <section class="ftco-section ftco-counter img" id="section-counter">
+        <!-- style="background-image:url(images/xbg_4.jpg.pagespeed.ic.sa_zkIHi1z.jpg)" -->
+        <div class="overlay" style="background-image: linear-gradient(315deg,#03045e ,#0077b6,#00b4d8);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex counter-wrap ftco-animate" style="margin-right:100px">
+                    <div class="block-18 d-flex align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-file"
+                                style="margin-right:85px"></span></div>
+                        <div class="text pl-3">
+                            <strong class="number">2015</strong>
+                            <span>Year of Establishment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex counter-wrap ftco-animate" style="margin-right:100px">
+                    <div class="block-18 d-flex align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-waiter"
+                                style="margin-right:85px"></span></div>
+                        <div class="text pl-3">
+                            <strong class="number" data-number="137">0</strong><strong class="number">+</strong>
+                            <span>Members</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex counter-wrap ftco-animate">
+                    <div class="block-18 d-flex align-items-center">
+                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                class="flaticon-customer-service" style="margin-right:85px"></span></div>
+                        <div class="text pl-3">
+                            <strong class="number" data-number="96">0</strong><strong class="number">+</strong>
+                            <span>Events</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #caf0f8;">
+
+        <!-- <div class="col">
+                <img src="/Team/images/team_photo.jpeg" style="width: 150%;" alt="">
+            </div> -->
+        <!-- <div class="col"> -->
+        <div class="container" style="margin: 0;padding-top: 50px;">
+            <div style="background-color: #caf0f8;" class="row team11">
+
+                <div class="col-md-7 col-sm-2">
+                    <img src="IMAGES/Team Image.jpg" style="width: 90%; transform: scale(1, 1); margin-top: 5%;"
+                        alt="Team Image">
+                </div>
+                <div class="col-md-5 col-sm-2 col-md-offset-2">
+                    <div class="testimonial-bg">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student Chapter focuses not only on the growth and development of technical
+                                    skills but also on an individual as a whole. We hope to encourage students to
+                                    diligently pursue their interest in computer technologies and contribute towards the
+                                    revolution our world is moving towards.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/1chair.png"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Muskaan Chopra,</h3>
+                                <span class="post">Chairperson</span>
+                            </div>
+
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student Chapter provides people a platform where they can develop
+                                    themselves on a professional and personal level. We at CASC, aim to build a
+                                    community of like-minded people who can network, learn and share their interests in
+                                    computing.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/2vicechair.png"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Kriti Aggarwal,</h3>
+                                <span class="post">Vice Chairperson</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    The CCET ACM Student Chapter offers you support and opportunities to enhance your
+                                    skills. As a member of this community, you will have the opportunity to collaborate
+                                    with others who share similar interests, explore different areas of computing in
+                                    order to advance in them.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/anureet.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Anureet Chabra,</h3>
+                                <span class="post">Secretary</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student Chapter contributes to the community and social work for human
+                                    well-being and development. We think everyone can participate in computer
+                                    programming, the only thing needed is a proper and determined mindset.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);"
+                                        src="IMAGES/Team_Images/2021_team/4membershipchair.png" alt="">
+                                </div>
+                                <h3 class="title">Tarun Vats,</h3>
+                                <span class="post">Membership Chair</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM's mission is to bring together and build a community for students of all
+                                    majors who are interested in research and computing professions. We host seminars,
+                                    talks, and contests to help students learn more about computer science while also
+                                    allowing them to network with industry professionals and gain exposure to
+                                    cutting-edge computing technologies.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/navjot.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Navjot Jangra,</h3>
+                                <span class="post">Treasurer</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student Chapter gives students a platform to explore and build their skills
+                                    with people of similar interests. Here in CASC we focus on all the aspects of growth
+                                    towards computer technologies and connect with people having extensive experiences
+                                    in different fields.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/parnit.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Parnit Kaur,</h3>
+                                <span class="post">Webmaster</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student Chapter provides an immersive, core student experience formulated
+                                    as a statement of responsibility to enhance students’ potential and talents to
+                                    facilitate a structured pathway from education to employment.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);"
+                                        src="IMAGES/Team_Images/2021_team/7designhead.png" alt="">
+                                </div>
+                                <h3 class="title">Aushotosh Thakur,</h3>
+                                <span class="post">Design Head</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student chapters are a group of people with similar interests and goals in
+                                    computer science. Together this platform focuses on the growth and development of
+                                    all because of its unique learning environment. It provides everyone an opportunity
+                                    to learn something new.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/akash.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Akash Sharma,</h3>
+                                <span class="post">App Master</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    The CCET ACM Student Chapter is a dedicated team of helpful and innovative minds.
+                                    People at this chapter are friendly and always ready to lend a hand. This chapter
+                                    encompasses a range of activities to keep the members interested and learning and
+                                    will keep on providing a positive change in the career of the students.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/taruna.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Taruna Saini,</h3>
+                                <span class="post">Executive Member Head</span>
+                            </div>
+                            <!--<div class="testimonial">
+                                <p class="description">
+                                    
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/ishika.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Ishika Malhotra,</h3>
+                                <span class="post">External PR Head</span>
+                            </div> -->
+                            <div class="testimonial">
+                                <p class="description">
+                                    ACM provides people a place to explore different domains and engage with people who
+                                    share the same interests. More than anything we believe in providing people a
+                                    platform to learn and share their skills.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);" src="IMAGES/Team_Images/2021_team/karan.jpg"
+                                        alt="">
+                                </div>
+                                <h3 class="title">Karan Singh,</h3>
+                                <span class="post">Social Media Manager</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    CCET ACM Student Chapter provides all its members unique opportunities for
+                                    networking, mentoring, and bonding over common interests. It helps to develop
+                                    intellectual thinking ability that advances one's career and enriches knowledge.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);"
+                                        src="IMAGES\Team_Images\2021_team\12editorial_head.png" alt="">
+                                </div>
+                                <h3 class="title">Harshit Dubey,</h3>
+                                <span class="post">Editorial Head</span>
+                            </div>
+                            <div class="testimonial">
+                                <p class="description">
+                                    ACM CCET provides the platform for students to explore various topics on research
+                                    and allow students to work under a team environment and gives a hands-on experience
+                                    to students.
+                                </p>
+                                <div class="pic">
+                                    <img style="filter:grayscale(0%);"
+                                        src="IMAGES/Team_Images/2021_team/13eventmanager.png" alt="">
+                                </div>
+                                <h3 class="title">Manraj Singh Mann,</h3>
+                                <span class="post">Event Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+
+    </section>
+
+    <div style="background-color: #caf0f8;">
+        <br>
+    </div>
+
+
+    <section class="ftco-section ftco-faqs services-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6 mb-5 md-md-0">
+                    <div class="img w-100 mb-4">
+                        <img style="width: 100%;filter: grayscale(0); padding-bottom: 20%;"
+                            src="IMAGES/about01-01 copy.png" alt="acm logo">
+                    </div>
+                </div>
+                <div class="col-md-6 heading-section pl-md-5 ftco-animate d-flex align-items-center">
+                    <div class="w-100 mb-4 mb-md-0">
+                        <h2 class="mb-5" style="padding-left: 1%;">Membership Benefits</h2>
+                        <div id="accordion" class="myaccordion w-100" aria-multiselectable="true">
+                            <div class="card">
+                                <div class="collapse show" id="collapseOne" role="tabpanel"
+                                    aria-labelledby="headingOne">
+                                    <div class="card-body py-3 px-0">
+                                        <ol>
+                                            <li>A vast network of nearly 100,000 highly dedicated student and
+                                                professional peers</li>
+                                            <li>A full year subscription to ACM magazines and news
+                                                letters.(Communications of the ACM, XRDS: Crossroads, MemberNet etc.)
+                                            </li>
+                                            <li>The option to subscribe to the full ACM Digital Library, which includes
+                                                over 2 million pages of text</li>
+                                            <li>Become a member of computing community through one of hundreds of
+                                                Professional and Student Chapters worldwide</li>
+                                            <li>Participation in ACM Distinguished Speakers Program (DSP).Renowned
+                                                International Thought Leaders Speaking on the Most Important Topics in
+                                                Computing Today</li>
+                                            <li>Unique volunteering opportunities to gain hands-on experience and
+                                                knowledge of the marketplace</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="ftco-intro ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <div class="img" style="background-image:url(\IMAGES\bg_vector-membership.png)">
+                        <div class="overlay"></div>
+                        <h1><a href="membership.html"
+                                style="color:white;font-family: 'Times New Roman', Times, serif;">ACM Membership</a>
+                        </h1>
+                        <div class="row justify-content-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+
+    <!-- ********************************** FOOTER ************************************************* -->
+
+    <footer class="ftco-footer">
+        <div id="contact"></div>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo">
+                            <a href="#"><img style="width: 40%;" src="IMAGES/ccet-acm-logo-website-white.png"
+                                    alt="CCET LOGO"></a>
+                        </h2>
+                        <p>ACM boosts up the potential and talent, supporting the overall development needs of our
+                            students to facilitate a structured path from education to employment by providing a safe
+                            and supported space where creative talent and imagination
+                            can flourish in a caring environment.
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled mt-2" style="margin-left: -25%;">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2" style="margin-left: 29%;">Explore</h2>
+                        <ul class="list-unstyled">
+                            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="2021-team.html" class="nav-link">Team</a></li>
+                            <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
+                            <li class="nav-item"><a href="https://www.ccet.ac.in" class="nav-link">College Website</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Contact US</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li>Chandigarh College of Engineering and Technology Degree Wing Sector - 26, Chandigarh
+                                </li>
+                                <br>
+                                <li><a href="https://www.ccet.ac.in">Website: www.ccet.ac.in</a></li>
+                                </li>
+                            </ul>
+                            <ul>
+                                <a href="Webmasters.html"><button class="btn">Webmasters</button></a>
+                                <a href="magazine/magazine.html"><button class="btn"
+                                        style="margin-left:30px;">Magazine</button></a>
+                            </ul>
+
+                            <!-- <ul style="display: inline;"  class="ftco-footer-social list-unstyled mt-2">
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
+                    </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- <?php include 'footer.php'?> -->
+
+    <!-- ******************************************** FOOTER END **************************************************** -->
+
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JASJvy2p6F.js"></script>
+    <script>
+        eval(mod_pagespeed_rofLaRKIL4);
+    </script>
+    <script>
+        eval(mod_pagespeed_O55HKXLZnL);
+    </script>
+    <script>
+        eval(mod_pagespeed_mukP_p5mwJ);
+    </script>
+    <script
+        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
+    <script>
+        eval(mod_pagespeed_5LBDxQvOMp);
+    </script>
+    <script>
+        eval(mod_pagespeed_men54686W3);
+    </script>
+    <script>
+        eval(mod_pagespeed_MTpE$V0lEy);
+    </script>
+    <script>
+        eval(mod_pagespeed_c_aV2CVVmg);
+    </script>
+    <script
+        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
+    <script>
+        eval(mod_pagespeed_bW87uRdxE$);
+    </script>
+    <script>
+        eval(mod_pagespeed_KI316L8Msq);
+    </script>
+    <script>
+        eval(mod_pagespeed_t39KiUcvzC);
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script>
+        eval(mod_pagespeed_lmdbQdpk6z);
+    </script>
+    <script>
+        eval(mod_pagespeed_TUbgfw69GQ);
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"rayId":"69470d3cbec81b98","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'></script>
+
+    <script>
+        const slider = document.querySelector('.swiper-container');
+        let mouseDown = false;
+        let startX, scrollLeft;
+
+        let startDragging = function (e) {
+            mouseDown = true;
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        };
+        let stopDragging = function (event) {
+            mouseDown = false;
+        };
+
+        slider.addEventListener('mousemove', (e) => {
+            e.preventDefault();
+            if (!mouseDown) { return; }
+            const x = e.pageX - slider.offsetLeft;
+            const scroll = x - startX;
+            slider.scrollLeft = scrollLeft - scroll;
+        });
+
+        // Add the event listeners
+        slider.addEventListener('mousedown', startDragging, false);
+        slider.addEventListener('mouseup', stopDragging, false);
+        slider.addEventListener('mouseleave', stopDragging, false);
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#testimonial-slider").owlCarousel({
+                items: 1,
+                itemsDesktop: [1000, 1],
+                itemsDesktopSmall: [979, 1],
+                itemsTablet: [768, 1],
+                pagination: false,
+                navigation: true,
+                navigationText: ["", ""],
+                autoPlay: true
+            });
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper('.blog-slider', {
+            spaceBetween: 30,
+            effect: 'fade',
+            loop: true,
+            mousewheel: {
+                invert: false,
+            },
+            // autoHeight: true,
+            pagination: {
+                el: '.blog-slider__pagination',
+                clickable: true,
+            }
+        });
+    </script>
+
+
+    <!-- RECENT UPDATES -->
+
+    <script>
+        $(function () {
+
+            $(".prev").on('click', function (event) {
+                event.preventDefault();
+                prevSlide();
+            });
+
+            $(".next").on('click', function (event) {
+                event.preventDefault();
+                nextSlide();
+            });
+
+            if ($(".item").length <= 1) {
+                $(".next").addClass('hide-nav');
+            }
+
+            $(".prev").addClass('hide-nav');
+
+            function nextSlide() {
+                var atual = $(".cd-slider").find('.current'),
+                    next = atual.next();
+
+                next.addClass('current').removeClass('prev_slide').siblings().removeClass('current');
+                next.prevAll().addClass('prev_slide');
+
+                if (next.index() > 0) {
+                    $(".prev").removeClass('hide-nav');
+                }
+                if (next.index() == $(".item").last().index()) {
+                    $(".next").addClass('hide-nav');
+                }
+            }
+
+            function prevSlide() {
+                var atual = $(".cd-slider").find('.current'),
+                    prev = atual.prev();
+
+                prev.addClass('current').removeClass('prev_slide').siblings().removeClass('current');
+
+                if (prev.index() !== $(".item").last().index()) {
+                    $(".next").removeClass('hide-nav');
+                }
+                if (prev.index() == 0) {
+                    $(".prev").addClass('hide-nav');
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
